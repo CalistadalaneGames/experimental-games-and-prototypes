@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "cbcJ2gKDyGhHIEWTNvtnj2/9Fr6VoeSjpIW2GcshCqDWO7znYn2GCtOiKmkNlevCbjZa0NMaHCFGl3TmPET7rg==",
+  "dgSpecHash": "yyUkPUR7IPOHkXrer+3Zus4Y0hHijGom8qFtjckql7n6zzTiJZL0o7/CYdq8g1KyYEWjE+ciB5bnfZEdnL6cCA==",
   "success": true,
   "projectFilePath": "G:\\GitHub\\calistadalanegames\\experimental-games-and-prototypes\\Dungeon-TextAdventure01\\src\\Dungeon-TextAdventure01.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\cbanw\\.nuget\\packages\\microsoft.codeanalysis.fxcopanalyzers\\3.3.0\\microsoft.codeanalysis.fxcopanalyzers.3.3.0.nupkg.sha512",
+    "C:\\Users\\cbanw\\.nuget\\packages\\microsoft.codeanalysis.versioncheckanalyzer\\3.3.0\\microsoft.codeanalysis.versioncheckanalyzer.3.3.0.nupkg.sha512",
+    "C:\\Users\\cbanw\\.nuget\\packages\\microsoft.codequality.analyzers\\3.3.0\\microsoft.codequality.analyzers.3.3.0.nupkg.sha512",
+    "C:\\Users\\cbanw\\.nuget\\packages\\microsoft.netcore.analyzers\\3.3.0\\microsoft.netcore.analyzers.3.3.0.nupkg.sha512",
+    "C:\\Users\\cbanw\\.nuget\\packages\\microsoft.netframework.analyzers\\3.3.0\\microsoft.netframework.analyzers.3.3.0.nupkg.sha512",
+    "C:\\Users\\cbanw\\.nuget\\packages\\roslynator.analyzers\\3.0.0\\roslynator.analyzers.3.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
