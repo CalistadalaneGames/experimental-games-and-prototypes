@@ -1,0 +1,13 @@
+G:\GitHub\calistadalanegames\experimental-games-and-prototypes\Dungeon-TextAdventure02\src\bin\Debug\netcoreapp3.1\Dungeon-TextAdventure02.exe
+G:\GitHub\calistadalanegames\experimental-games-and-prototypes\Dungeon-TextAdventure02\src\bin\Debug\netcoreapp3.1\Dungeon-TextAdventure02.deps.json
+G:\GitHub\calistadalanegames\experimental-games-and-prototypes\Dungeon-TextAdventure02\src\bin\Debug\netcoreapp3.1\Dungeon-TextAdventure02.runtimeconfig.json
+G:\GitHub\calistadalanegames\experimental-games-and-prototypes\Dungeon-TextAdventure02\src\bin\Debug\netcoreapp3.1\Dungeon-TextAdventure02.runtimeconfig.dev.json
+G:\GitHub\calistadalanegames\experimental-games-and-prototypes\Dungeon-TextAdventure02\src\bin\Debug\netcoreapp3.1\Dungeon-TextAdventure02.dll
+G:\GitHub\calistadalanegames\experimental-games-and-prototypes\Dungeon-TextAdventure02\src\bin\Debug\netcoreapp3.1\Dungeon-TextAdventure02.pdb
+G:\GitHub\calistadalanegames\experimental-games-and-prototypes\Dungeon-TextAdventure02\src\obj\Debug\netcoreapp3.1\Dungeon-TextAdventure02.csprojAssemblyReference.cache
+G:\GitHub\calistadalanegames\experimental-games-and-prototypes\Dungeon-TextAdventure02\src\obj\Debug\netcoreapp3.1\Dungeon-TextAdventure02.AssemblyInfoInputs.cache
+G:\GitHub\calistadalanegames\experimental-games-and-prototypes\Dungeon-TextAdventure02\src\obj\Debug\netcoreapp3.1\Dungeon-TextAdventure02.AssemblyInfo.cs
+G:\GitHub\calistadalanegames\experimental-games-and-prototypes\Dungeon-TextAdventure02\src\obj\Debug\netcoreapp3.1\Dungeon-TextAdventure02.csproj.CoreCompileInputs.cache
+G:\GitHub\calistadalanegames\experimental-games-and-prototypes\Dungeon-TextAdventure02\src\obj\Debug\netcoreapp3.1\Dungeon-TextAdventure02.dll
+G:\GitHub\calistadalanegames\experimental-games-and-prototypes\Dungeon-TextAdventure02\src\obj\Debug\netcoreapp3.1\Dungeon-TextAdventure02.pdb
+G:\GitHub\calistadalanegames\experimental-games-and-prototypes\Dungeon-TextAdventure02\src\obj\Debug\netcoreapp3.1\Dungeon-TextAdventure02.genruntimeconfig.cache
