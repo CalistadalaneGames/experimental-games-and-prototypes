@@ -7,11 +7,9 @@ namespace Dungeon_TextAdventure02
 {
     public class GameInitialize
     {
-        public static void BuildGameMessages(DungineObject dungine)
+        public static void BuildDungineObject(DungineObject dungine)
         {
             List<string> messageNames = GetMessageNames();
-
-            var msgNumber = 0;
 
             foreach(var messageName in messageNames)
             {
@@ -22,16 +20,14 @@ namespace Dungeon_TextAdventure02
                     Body    = "testBod"
                 };
 
-                dungine.TextMessages.Add(messageName, gm);
+                dungine.TextMessages.Add(messageName,gm);
             }
 
-            var breaker=0;
         }
 
-        public static List<string> GetMessageNames()
-        {
+        public static List<string> GetMessageNames() =>
             // TODO Eventually this should be in an external file.
-            return new List<string>
+            new List<string>
             {
                 "WelcomeToGame",
                 "EntranceToDungeon",
@@ -43,10 +39,5 @@ namespace Dungeon_TextAdventure02
                 "PlayerVictory",
                 "PlayerDefeat"
             };
-        }
-
-
-
-
     }
 }

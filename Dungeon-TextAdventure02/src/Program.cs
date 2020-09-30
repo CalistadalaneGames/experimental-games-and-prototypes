@@ -1,5 +1,4 @@
-﻿
-// Dungeon: Text Adventure 02
+﻿// Dungeon: Text Adventure 02
 // Prototype/experimental text game engine (DungineTxt v0.0.2)
 // Program.cs: Main entry point.
 
@@ -11,18 +10,16 @@ namespace Dungeon_TextAdventure02
     {
         public DungineObject Dungine;
 
-        static void Main(string[] args)
-        {
-            StartGame();
-        }
+        private static void Main(string[] args) => StartGame();
 
         public static void StartGame()
         {
-            var Dungine = new DungineObject();
+            var Dungine = new DungineObject
+            {
+                TextMessages = new Dictionary<string,DungineObject.GameTextMessage>()
+            };
 
-            Dungine.TextMessages = new Dictionary<string, DungineObject.GameTextMessage>();
-
-            GameInitialize.BuildGameMessages(Dungine);
+            GameInitialize.BuildDungineObject(Dungine);
         }
     }
 }
