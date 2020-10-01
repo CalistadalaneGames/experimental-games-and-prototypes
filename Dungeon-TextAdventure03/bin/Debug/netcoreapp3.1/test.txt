@@ -1,0 +1,41 @@
+{
+  "Rooms": {
+    "0": {
+      "Name": "Room 0",
+      "Description": "An empty room"
+    },
+    "1": {
+      "Name": "Room 1",
+      "Description": "An empty room"
+    },
+    "2": {
+      "Name": "Room 2",
+      "Description": "An empty room"
+    },
+    "3": {
+      "Name": "Room 3",
+      "Description": "An empty room"
+    },
+    "4": {
+      "Name": "Room 4",
+      "Description": "An empty room"
+    }
+  },
+  "Messages": {
+    "playerWelcome": {
+      "Name": "playerDefeat",
+      "Subject": "You lost!",
+      "Body": "You suck!"
+    },
+    "playerVictory": {
+      "Name": "playerDefeat",
+      "Subject": "You lost!",
+      "Body": "You suck!"
+    },
+    "playerDefeat": {
+      "Name": "playerDefeat",
+      "Subject": "You lost!",
+      "Body": "You suck!"
+    }
+  }
+}
