@@ -1,14 +1,10 @@
 ﻿//  ▄▄▄▄▄▄  ▄▄   ▄▄ ▄▄    ▄ ▄▄▄▄▄▄▄ ▄▄▄ ▄▄    ▄ ▄▄▄▄▄▄▄
-// █      ██  █ █  █  █  █ █       █   █  █  █ █       █
-// █  ▄    █  █ █  █   █▄█ █   ▄▄▄▄█   █   █▄█ █    ▄▄▄█
-// █ █ █   █  █▄█  █       █  █  ▄▄█   █       █   █▄▄▄
-// █ █▄█   █       █  ▄    █  █ █  █   █  ▄    █    ▄▄▄█
-// █       █       █ █ █   █  █▄▄█ █   █ █ █   █   █▄▄▄
-// █▄▄▄▄▄▄██▄▄▄▄▄▄▄█▄█  █▄▄█▄▄▄▄▄▄▄█▄▄▄█▄█  █▄▄█▄▄▄▄▄▄▄█
-
-
-
-
+// █      ██  █ █  █  █  █ █       █   █  █  █ █       █  Dungeon: Text Adventure 03
+// █  ▄    █  █ █  █   █▄█ █   ▄▄▄▄█   █   █▄█ █    ▄▄▄█  Version 0.0.0
+// █ █ █   █  █▄█  █       █  █  ▄▄█   █       █   █▄▄▄   https://github.com/CalistadalaneGames/experimental-games-and-prototypes
+// █ █▄█   █       █  ▄    █  █ █  █   █  ▄    █    ▄▄▄█  (C)2020 A Pretty Cool Program & Calistadalane Games All rights reserved.
+// █       █       █ █ █   █  █▄▄█ █   █ █ █   █   █▄▄▄   Licensed under the Apache License v2
+// █▄▄▄▄▄▄██▄▄▄▄▄▄▄█▄█  █▄▄█▄▄▄▄▄▄▄█▄▄▄█▄█  █▄▄█▄▄▄▄▄▄▄█  j
 
 using System.Text.Json;
 
