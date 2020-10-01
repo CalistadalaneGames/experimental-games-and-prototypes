@@ -14,3 +14,6 @@ G:\GitHub\calistadalanegames\experimental-games-and-prototypes\Dungeon-TextAdven
 G:\GitHub\calistadalanegames\experimental-games-and-prototypes\Dungeon-TextAdventure03\obj\Debug\netcoreapp3.1\Dungeon-TextAdventure03.dll
 G:\GitHub\calistadalanegames\experimental-games-and-prototypes\Dungeon-TextAdventure03\obj\Debug\netcoreapp3.1\Dungeon-TextAdventure03.pdb
 G:\GitHub\calistadalanegames\experimental-games-and-prototypes\Dungeon-TextAdventure03\obj\Debug\netcoreapp3.1\Dungeon-TextAdventure03.genruntimeconfig.cache
+G:\GitHub\calistadalanegames\experimental-games-and-prototypes\Dungeon-TextAdventure03\bin\Debug\netcoreapp3.1\DungineData\Document\Included\README.md
+G:\GitHub\calistadalanegames\experimental-games-and-prototypes\Dungeon-TextAdventure03\bin\Debug\netcoreapp3.1\DungineData\Document\README.md
+G:\GitHub\calistadalanegames\experimental-games-and-prototypes\Dungeon-TextAdventure03\bin\Debug\netcoreapp3.1\DungineData\README.md

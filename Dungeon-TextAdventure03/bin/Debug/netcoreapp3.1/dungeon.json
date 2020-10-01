@@ -1,0 +1,60 @@
+{
+  "Messages": {
+    "MessageName": {
+      "Subject": "Message subject",
+      "Body": "Message body [Y/n] "
+    }
+  },
+  "Rooms": {
+    "0": {
+      "Name": "Room 0",
+      "Description": "This is an empty room.",
+      "Cardinals": {
+        "north": {
+          "ToRoomNumber": "0",
+          "Actions": [
+            "go",
+            "move",
+            "walk"
+          ],
+          "Objects": [
+            "door"
+          ]
+        },
+        "east": {
+          "ToRoomNumber": "0",
+          "Actions": [
+            "go",
+            "move",
+            "walk"
+          ],
+          "Objects": [
+            "door"
+          ]
+        },
+        "south": {
+          "ToRoomNumber": "0",
+          "Actions": [
+            "go",
+            "move",
+            "walk"
+          ],
+          "Objects": [
+            "door"
+          ]
+        },
+        "west": {
+          "ToRoomNumber": "0",
+          "Actions": [
+            "go",
+            "move",
+            "walk"
+          ],
+          "Objects": [
+            "door"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "Actions": [
+    "go",
+    "move",
+    "walk"
+  ],
+  "Cardinals": [
+    "north",
+    "east",
+    "south",
+    "west"
+  ],
+  "Objects": [
+    "door"
+  ]
+}
