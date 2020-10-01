@@ -18,7 +18,7 @@
     },
     "4": {
       "Name": "The dungeon exit",
-      "Description": "This is it! You\u0027ve made it through the dungeon!"
+      "Description": "This is it! You've made it through the dungeon!"
     }
   },
   "Messages": {
