@@ -7,50 +7,34 @@
 // Program.cs: Entry point for Dungeon: Text Adventure 03
 
 using System;
-using System.IO;
-using System.Linq;
 using System.Reflection;
 
 namespace Dungeon_TextAdventure03
 {
     internal class Program
     {
+        public static DungineCore.GameState     gameState;
         public static DungineCore.DungeonObject dungeonObject;
         public static DungineCore.Parser        parser;
-
-        // TODO This may be moved to DungeonObject.
-        public static string        currentRoom;
-        public static bool          playerIsAlive;
-        public static bool          playerIsInDungeon;
 
         /// <summary></summary>
         /// <param name="args">Passed arguments.</param>
         private static void Main(string[] args)
         {
-            CheckGameRequirements();
-            InitializeGame();
+            StartGame();
+        }
+
+        /// <summary></summary>
+        private static void StartGame()
+        {
+            DungineCore.Initializer.VerifyRequirements();
+
+            gameState     = DungineCore.Initializer.PlayerStatus();
+            dungeonObject = DungineCore.Initializer.DungeonData();
+            parser        = DungineCore.Initializer.ParserData();
+
             WelcomeToTheGame();
             RoomLoop();
-        }
-
-        /// <summary></summary>
-        private static void CheckGameRequirements()
-        {
-            if(!File.Exists("dungeon.json"))
-            {
-                DungineCore.Parser.SaveToJson();
-                DungineCore.DungeonObject.SaveToJson();
-            }
-        }
-
-        /// <summary></summary>
-        private static void InitializeGame()
-        {
-            playerIsAlive     = true;
-            playerIsInDungeon = true;
-
-            dungeonObject = DungineCore.DungeonObject.LoadFromJson();
-            parser        = DungineCore.Parser.LoadFromJson();
         }
 
         /// <summary></summary>
@@ -84,25 +68,20 @@ namespace Dungeon_TextAdventure03
         /// <summary></summary>
         private static void RoomLoop()
         {
-            currentRoom = "0";
+            var currentRoom = "0";
 
-            while(playerIsAlive && playerIsInDungeon)
-            {
+
+                if(currentRoom != "0")
+                {
+                    currentRoom = EnterRoom(currentRoom);
+                }
+                else
+                {
+                    currentRoom = EnterRoom("0");
+                }
+
                 EnterRoom(currentRoom);
-            }
 
-            if(!playerIsAlive)
-            {
-                // Do something
-            }
-            else if(!playerIsInDungeon)
-            {
-                // Do something
-            }
-            else
-            {
-                // Do something
-            }
         }
 
         /// <summary></summary>
@@ -121,7 +100,7 @@ namespace Dungeon_TextAdventure03
             Console.Write(roomMessage);
             playerRequest = Console.ReadLine().ToLower();
 
-            while(!IsValidRoomAction(playerRequest))
+            while(!parser.Actions.Contains(playerRequest))
             {
                 var invalidEntryMessage = "\n\nThat's not possible." +
                                       "\n\n" +
@@ -132,103 +111,15 @@ namespace Dungeon_TextAdventure03
                 playerRequest = Console.ReadLine();
             }
 
-            ParseRequest(playerRequest);
+            var goingToRoom = "";
 
-
-
-            //while(!IsValidCardinalAction(whatToDo))
-            //{
-            //    var invalidEntryMessage = "\n\nThat's not possible." +
-            //                          "\n\n" +
-            //                          "What do you want to do? ";
-
-            //    Console.Write(invalidEntryMessage);
-            //    Console.Write(roomMessage);
-            //    whatToDo = Console.ReadLine();
-            //}
-
-            //Parser(whatToDo);
-
-            var goingToRoom = "1";
+            if(playerRequest == "go")
+            {
+                goingToRoom = dungeonObject.Rooms[roomNumber].Cardinals["north"].ToRoomNumber;
+            }
 
             return goingToRoom;
         }
-
-        /// <summary></summary>
-        /// <param name="action"></param>
-        public static void ParseRequest(string playerRequest)
-        {
-
-
-
-
-
-        }
-
-        /// <summary></summary>
-        /// <param name="whatToDo"></param>
-        /// <returns></returns>
-        public static bool IsValidRoomAction(string playerAction)
-        {
-            var action = "";
-
-            if(parser.Actions.Any(playerAction.Contains))
-            {
-                action =
-            }
-
-            return action;
-        }
-
-        public static void ParseAction(string playerAction)
-        {
-            if(playerMove(playerAction))
-            {
-
-            }
-
-            switch(playerAction.Any()
-            {
-                case "go":
-                case "move":
-                case "walk":
-                    playerMove(playerAction);
-                    break;
-
-                default:
-                    break;
-            }
-        }
-
-        public static bool ActionIsMove(string playerAction)
-        {
-            return playerAction.Split(new[] { ' ' }).Any(parser.Cardinals.Contains);
-
-
-
-        }
-
-
-        public static bool IsValidCardinalAction(string whatToDo)
-        {
-
-            return true;
-        }
-
-
-        //public static bool IsValidCardinalAction(string whatToDo, string roomNumber)
-        //{
-        //   // System.Collections.Generic.Dictionary<string, DungeonObject.Cardinal> test = dungineObject.Rooms[roomNumber].Cardinals
-
-        //    //if(true)
-        //    //{
-        //    //    return true;
-        //    //}
-        //    //else
-        //    //{
-        //    //    return false;
-        //    //}
-        //}
     }
 }
 

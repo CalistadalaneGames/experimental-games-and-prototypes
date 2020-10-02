@@ -2,7 +2,9 @@
   "Actions": [
     "go",
     "move",
-    "walk"
+    "walk",
+    "look",
+    "take"
   ],
   "Cardinals": [
     "north",
@@ -11,6 +13,9 @@
     "west"
   ],
   "Objects": [
-    "door"
+    "apple",
+    "pear",
+    "door",
+    "table"
   ]
 }
