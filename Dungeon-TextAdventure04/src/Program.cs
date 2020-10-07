@@ -6,13 +6,19 @@
 
 // Program.cs: Entry point for Dungeon: Text Adventure 04
 
-using System;
-
 namespace Dungeon_TextAdventure04
 {
     internal class Program
     {
-        private static void Main(string[] args) => Console.WriteLine("Hello World!");
+        public static DungineCore.Engine Dungine;
+        //public static string GameActions;
+
+        private static void Main(string[] args)
+        {
+            Dungine = new DungineCore.Engine();
+
+            var test = 0;
+        }
     }
 }
 

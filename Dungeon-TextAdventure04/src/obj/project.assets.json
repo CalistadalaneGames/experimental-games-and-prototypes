@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "DungineCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/DungineCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DungineCore.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "DungineCore/1.0.0": {
+      "type": "project",
+      "path": "../../../dungine/DungineCore/src/DungineCore.csproj",
+      "msbuildProject": "../../../dungine/DungineCore/src/DungineCore.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "DungineCore >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\cbanw\\.nuget\\packages\\": {}
@@ -32,7 +51,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "G:\\GitHub\\calistadalanegames\\dungine\\DungineCore\\src\\DungineCore.csproj": {
+              "projectPath": "G:\\GitHub\\calistadalanegames\\dungine\\DungineCore\\src\\DungineCore.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Dungeon-TextAdventure04/1.0.0": {
+        "dependencies": {
+          "DungineCore": "1.0.0"
+        },
+        "runtime": {
+          "Dungeon-TextAdventure04.dll": {}
+        }
+      },
+      "DungineCore/1.0.0": {
+        "runtime": {
+          "DungineCore.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Dungeon-TextAdventure04/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DungineCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
