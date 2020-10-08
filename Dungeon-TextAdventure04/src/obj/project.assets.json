@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\GitHub\\calistadalanegames\\experimental-games-and-prototypes\\Dungeon-TextAdventure04\\src\\Dungeon-TextAdventure04.csproj",
+      "projectUniqueName": "C:\\Users\\cbanw\\GitHub\\calistadalanegames\\experimental-games-and-prototypes\\Dungeon-TextAdventure04\\src\\Dungeon-TextAdventure04.csproj",
       "projectName": "Dungeon-TextAdventure04",
-      "projectPath": "G:\\GitHub\\calistadalanegames\\experimental-games-and-prototypes\\Dungeon-TextAdventure04\\src\\Dungeon-TextAdventure04.csproj",
+      "projectPath": "C:\\Users\\cbanw\\GitHub\\calistadalanegames\\experimental-games-and-prototypes\\Dungeon-TextAdventure04\\src\\Dungeon-TextAdventure04.csproj",
       "packagesPath": "C:\\Users\\cbanw\\.nuget\\packages\\",
-      "outputPath": "G:\\GitHub\\calistadalanegames\\experimental-games-and-prototypes\\Dungeon-TextAdventure04\\src\\obj\\",
+      "outputPath": "C:\\Users\\cbanw\\GitHub\\calistadalanegames\\experimental-games-and-prototypes\\Dungeon-TextAdventure04\\src\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cbanw\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,8 +52,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "G:\\GitHub\\calistadalanegames\\dungine\\DungineCore\\src\\DungineCore.csproj": {
-              "projectPath": "G:\\GitHub\\calistadalanegames\\dungine\\DungineCore\\src\\DungineCore.csproj"
+            "C:\\Users\\cbanw\\GitHub\\calistadalanegames\\dungine\\DungineCore\\src\\DungineCore.csproj": {
+              "projectPath": "C:\\Users\\cbanw\\GitHub\\calistadalanegames\\dungine\\DungineCore\\src\\DungineCore.csproj"
             }
           }
         }
