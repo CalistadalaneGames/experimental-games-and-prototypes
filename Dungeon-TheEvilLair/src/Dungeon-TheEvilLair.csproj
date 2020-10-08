@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Dungeon_TheEvilLair</RootNamespace>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Dungeon_TheEvilLair</RootNamespace>
   </PropertyGroup>
 
 </Project>
