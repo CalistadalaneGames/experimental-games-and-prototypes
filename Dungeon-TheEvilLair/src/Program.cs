@@ -17,11 +17,15 @@ using System;
 
 namespace Dungeon_TheEvilLair
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //Console.WriteLine("Hello World!");
+
+            var tt = Dungine.Game.Game.New("text");
+            
+            var ww = 0;
         }
     }
 }

@@ -1,11 +1,62 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "Dungine/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Dungine.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dungine.dll": {}
+        }
+      },
+      "Dungine.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Dungine.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dungine.Core.dll": {}
+        }
+      },
+      "Dungine.Text/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Dungine.Text.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dungine.Text.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Dungine/1.0.0": {
+      "type": "project",
+      "path": "../../../dungine/Dungine/src/Dungine.csproj",
+      "msbuildProject": "../../../dungine/Dungine/src/Dungine.csproj"
+    },
+    "Dungine.Core/1.0.0": {
+      "type": "project",
+      "path": "../../../dungine/Dungine/Dungine.Core/src/Dungine.Core.csproj",
+      "msbuildProject": "../../../dungine/Dungine/Dungine.Core/src/Dungine.Core.csproj"
+    },
+    "Dungine.Text/1.0.0": {
+      "type": "project",
+      "path": "../../../dungine/Dungine/Dungine.Text/src/Dungine.Text.csproj",
+      "msbuildProject": "../../../dungine/Dungine/Dungine.Text/src/Dungine.Text.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "Dungine >= 1.0.0",
+      "Dungine.Core >= 1.0.0",
+      "Dungine.Text >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\cbanw\\.nuget\\packages\\": {}
@@ -32,7 +83,17 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\cbanw\\GitHub\\calistadalanegames\\dungine\\Dungine\\Dungine.Core\\src\\Dungine.Core.csproj": {
+              "projectPath": "C:\\Users\\cbanw\\GitHub\\calistadalanegames\\dungine\\Dungine\\Dungine.Core\\src\\Dungine.Core.csproj"
+            },
+            "C:\\Users\\cbanw\\GitHub\\calistadalanegames\\dungine\\Dungine\\Dungine.Text\\src\\Dungine.Text.csproj": {
+              "projectPath": "C:\\Users\\cbanw\\GitHub\\calistadalanegames\\dungine\\Dungine\\Dungine.Text\\src\\Dungine.Text.csproj"
+            },
+            "C:\\Users\\cbanw\\GitHub\\calistadalanegames\\dungine\\Dungine\\src\\Dungine.csproj": {
+              "projectPath": "C:\\Users\\cbanw\\GitHub\\calistadalanegames\\dungine\\Dungine\\src\\Dungine.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

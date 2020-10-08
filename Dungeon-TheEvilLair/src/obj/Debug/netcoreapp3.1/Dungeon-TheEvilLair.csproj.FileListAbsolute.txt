@@ -1,0 +1,17 @@
+C:\Users\cbanw\GitHub\calistadalanegames\experimental-games-and-prototypes\Dungeon-TheEvilLair\src\bin\Debug\netcoreapp3.1\Dungeon-TheEvilLair.exe
+C:\Users\cbanw\GitHub\calistadalanegames\experimental-games-and-prototypes\Dungeon-TheEvilLair\src\bin\Debug\netcoreapp3.1\Dungeon-TheEvilLair.deps.json
+C:\Users\cbanw\GitHub\calistadalanegames\experimental-games-and-prototypes\Dungeon-TheEvilLair\src\bin\Debug\netcoreapp3.1\Dungeon-TheEvilLair.runtimeconfig.json
+C:\Users\cbanw\GitHub\calistadalanegames\experimental-games-and-prototypes\Dungeon-TheEvilLair\src\bin\Debug\netcoreapp3.1\Dungeon-TheEvilLair.runtimeconfig.dev.json
+C:\Users\cbanw\GitHub\calistadalanegames\experimental-games-and-prototypes\Dungeon-TheEvilLair\src\bin\Debug\netcoreapp3.1\Dungeon-TheEvilLair.dll
+C:\Users\cbanw\GitHub\calistadalanegames\experimental-games-and-prototypes\Dungeon-TheEvilLair\src\bin\Debug\netcoreapp3.1\Dungeon-TheEvilLair.pdb
+C:\Users\cbanw\GitHub\calistadalanegames\experimental-games-and-prototypes\Dungeon-TheEvilLair\src\obj\Debug\netcoreapp3.1\Dungeon-TheEvilLair.csprojAssemblyReference.cache
+C:\Users\cbanw\GitHub\calistadalanegames\experimental-games-and-prototypes\Dungeon-TheEvilLair\src\obj\Debug\netcoreapp3.1\Dungeon-TheEvilLair.AssemblyInfoInputs.cache
+C:\Users\cbanw\GitHub\calistadalanegames\experimental-games-and-prototypes\Dungeon-TheEvilLair\src\obj\Debug\netcoreapp3.1\Dungeon-TheEvilLair.AssemblyInfo.cs
+C:\Users\cbanw\GitHub\calistadalanegames\experimental-games-and-prototypes\Dungeon-TheEvilLair\src\obj\Debug\netcoreapp3.1\Dungeon-TheEvilLair.csproj.CoreCompileInputs.cache
+C:\Users\cbanw\GitHub\calistadalanegames\experimental-games-and-prototypes\Dungeon-TheEvilLair\src\obj\Debug\netcoreapp3.1\Dungeon-TheEvilLair.csproj.CopyComplete
+C:\Users\cbanw\GitHub\calistadalanegames\experimental-games-and-prototypes\Dungeon-TheEvilLair\src\obj\Debug\netcoreapp3.1\Dungeon-TheEvilLair.dll
+C:\Users\cbanw\GitHub\calistadalanegames\experimental-games-and-prototypes\Dungeon-TheEvilLair\src\obj\Debug\netcoreapp3.1\Dungeon-TheEvilLair.pdb
+C:\Users\cbanw\GitHub\calistadalanegames\experimental-games-and-prototypes\Dungeon-TheEvilLair\src\obj\Debug\netcoreapp3.1\Dungeon-TheEvilLair.genruntimeconfig.cache
+C:\Users\cbanw\GitHub\calistadalanegames\experimental-games-and-prototypes\Dungeon-TheEvilLair\src\bin\Debug\netcoreapp3.1\Dungine.exe
+C:\Users\cbanw\GitHub\calistadalanegames\experimental-games-and-prototypes\Dungeon-TheEvilLair\src\bin\Debug\netcoreapp3.1\Dungine.dll
+C:\Users\cbanw\GitHub\calistadalanegames\experimental-games-and-prototypes\Dungeon-TheEvilLair\src\bin\Debug\netcoreapp3.1\Dungine.pdb
