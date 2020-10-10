@@ -18,37 +18,49 @@ namespace Dungeon_TheEvilLair
     {
         public static GameInstance Game;
 
+        // Entry point.
         private static void Main(string[] args)
         {
-            /* DEBUGGING/DEVELOPMENT
-             * Uncomment the following line and pass:
-             *      "": don't do anything (default action)
-             *  create: create a new Game template JSON file
-             *    load: load a Game template JSON file.
-             */
-            DevelopmentAndDebug();
+            StartGame();
+
         }
+
+        /// <include file='code-comments.xml' path='docs/members[@name="Program"]/StartGame/*'/>
+        private static void StartGame()
+        {
+            CreateGenericGameInstance();
+
+            LoadGame("dungeon_the-evil-lair");
+        }
+
+
 
         /// <summary>
-        /// Executes some code for development/debugging purposes.
+        /// Create a generic GameInstance JSON file.
+        /// This is another line.
+        /// And another
         /// </summary>
-        /// <param name="action">The development/debugging action to take ["" (default), "create", "load"]</param>
-        private static void DevelopmentAndDebug(string action = "")
+        /// <remarks>
+        /// When a Dungine game starts, the first thing it does is create a generic GameInstance template because:\n
+        /// If the "<gameName>.json" file for your game isn't found, the "dungine-generic-game.json" file is
+        /// loaded.You'll find out pretty quick that something is wrong.
+        /// The generic GameInstance template is useful when developing/debugging Dungine, and this way a new,
+        /// current GameInstance template is created whenever a Dungine game is launched.
+        /// For the most part, you can just ignore the ""dungine-generic-game.json" file.
+        /// </remarks>
+        private static void CreateGenericGameInstance()
         {
-            switch(action)
-            {
-                case "create":
-                    GameInstance.NewTemplate();
-                    break;
-
-                case "load":
-                    Game = (GameInstance)LoadData.Json("dungine_generic-game.json");
-                    break;
-
-                default:
-                    // Don't do anything.
-                    break;
-            }
+            GameInstance.NewTemplate();
         }
+        /// <summary>
+        /// This
+        /// </summary>
+        /// <param name="gameName"></param>
+
+        public static void LoadGame(string gameName)
+        {
+            GameInstance Game = LoadGameInstance.Json(gameName);
+        }
+
     }
 }

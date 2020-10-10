@@ -36,3 +36,4 @@ G:\GitHub\calistadalanegames\experimental-games-and-prototypes\Dungeon-TheEvilLa
 G:\GitHub\calistadalanegames\experimental-games-and-prototypes\Dungeon-TheEvilLair\build\netcoreapp3.1\Dungeon-TheEvilLair.pdb
 G:\GitHub\calistadalanegames\experimental-games-and-prototypes\Dungeon-TheEvilLair\build\netcoreapp3.1\Dungine.exe
 G:\GitHub\calistadalanegames\experimental-games-and-prototypes\Dungeon-TheEvilLair\src\obj\Debug\netcoreapp3.1\Dungeon-TheEvilLair.csproj.CopyComplete
+G:\GitHub\calistadalanegames\experimental-games-and-prototypes\Dungeon-TheEvilLair\build\netcoreapp3.1\Dungeon-TheEvilLair.xml

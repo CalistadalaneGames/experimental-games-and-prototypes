@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Dungeon-TheEvilLair</name>
+    </assembly>
+    <members>
+        <!-- Badly formed XML comment ignored for member "M:Dungeon_TheEvilLair.Program.CreateGenericGameInstance" -->
+        <member name="M:Dungeon_TheEvilLair.Program.LoadGame(System.String)">
+            <summary>
+            This
+            </summary>
+            <param name="gameName"></param>
+        </member>
+    </members>
+</doc>

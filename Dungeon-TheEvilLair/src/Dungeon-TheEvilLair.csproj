@@ -4,12 +4,13 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>Dungeon_TheEvilLair</RootNamespace>
-    <AssemblyVersion>0.3.7588.1858</AssemblyVersion>
-    <FileVersion>0.3.7588.1858</FileVersion>
+    <AssemblyVersion>0.3.7588.1956</AssemblyVersion>
+    <FileVersion>0.3.7588.1956</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <OutputPath>G:\GitHub\calistadalanegames\experimental-games-and-prototypes\Dungeon-TheEvilLair\build\</OutputPath>
+    <DocumentationFile></DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
