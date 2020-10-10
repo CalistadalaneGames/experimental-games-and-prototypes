@@ -15,7 +15,7 @@ namespace Dungeon_TheEvilLair
     {
         private static void Main(string[] args)
         {
-            object test = Dungine.Generic.GenericGame.New("dungeon", "the-evil-lair");
+            Dungine.Generic.GenericGame.New();
 
         }
     }

@@ -1,18 +1,18 @@
 {
-  "Details": {
+  "Detail": {
     "Title": "Game Title:",
     "SubTitle": "Game Subtitle",
     "Genre": "Generic"
   },
-  "Rules": {
+  "Rule": {
     "StartingRoom": "0",
     "EntranceRoom": "1",
     "ExitRoom": "2"
   },
-  "States": {
+  "State": {
     "IsHappening": true
   },
-  "Messages": {
+  "Message": {
     "Welcome": {
       "Subject": "Welcome to the game!",
       "Body": "Have fun!"
@@ -22,11 +22,11 @@
       "Body": "See you later!"
     }
   },
-  "Rooms": {
+  "Room": {
     "0": {
       "Name": "The starting room",
       "Description": "An empty room",
-      "RoomCardinals": {
+      "RoomCardinal": {
         "north": {
           "ToRoomNumber": "1",
           "Actions": [
@@ -76,7 +76,7 @@
     "1": {
       "Name": "The entrance",
       "Description": "The dungeon entrance!",
-      "RoomCardinals": {
+      "RoomCardinal": {
         "north": {
           "ToRoomNumber": "2",
           "Actions": [
@@ -126,7 +126,7 @@
     "2": {
       "Name": "The exit room",
       "Description": "The dungeon exit!",
-      "RoomCardinals": {
+      "RoomCardinal": {
         "north": {
           "ToRoomNumber": "exit",
           "Actions": [
