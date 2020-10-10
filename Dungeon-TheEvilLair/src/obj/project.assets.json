@@ -11,26 +11,6 @@
         "runtime": {
           "bin/placeholder/Dungine.dll": {}
         }
-      },
-      "Dungine.Core/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/Dungine.Core.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Dungine.Core.dll": {}
-        }
-      },
-      "Dungine.Text/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/Dungine.Text.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Dungine.Text.dll": {}
-        }
       }
     }
   },
@@ -39,23 +19,11 @@
       "type": "project",
       "path": "../../../dungine/Dungine/src/Dungine.csproj",
       "msbuildProject": "../../../dungine/Dungine/src/Dungine.csproj"
-    },
-    "Dungine.Core/1.0.0": {
-      "type": "project",
-      "path": "../../../dungine/Dungine/Dungine.Core/src/Dungine.Core.csproj",
-      "msbuildProject": "../../../dungine/Dungine/Dungine.Core/src/Dungine.Core.csproj"
-    },
-    "Dungine.Text/1.0.0": {
-      "type": "project",
-      "path": "../../../dungine/Dungine/Dungine.Text/src/Dungine.Text.csproj",
-      "msbuildProject": "../../../dungine/Dungine/Dungine.Text/src/Dungine.Text.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Dungine >= 1.0.0",
-      "Dungine.Core >= 1.0.0",
-      "Dungine.Text >= 1.0.0"
+      "Dungine >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -64,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cbanw\\GitHub\\calistadalanegames\\experimental-games-and-prototypes\\Dungeon-TheEvilLair\\src\\Dungeon-TheEvilLair.csproj",
+      "projectUniqueName": "G:\\GitHub\\calistadalanegames\\experimental-games-and-prototypes\\Dungeon-TheEvilLair\\src\\Dungeon-TheEvilLair.csproj",
       "projectName": "Dungeon-TheEvilLair",
-      "projectPath": "C:\\Users\\cbanw\\GitHub\\calistadalanegames\\experimental-games-and-prototypes\\Dungeon-TheEvilLair\\src\\Dungeon-TheEvilLair.csproj",
+      "projectPath": "G:\\GitHub\\calistadalanegames\\experimental-games-and-prototypes\\Dungeon-TheEvilLair\\src\\Dungeon-TheEvilLair.csproj",
       "packagesPath": "C:\\Users\\cbanw\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cbanw\\GitHub\\calistadalanegames\\experimental-games-and-prototypes\\Dungeon-TheEvilLair\\src\\obj\\",
+      "outputPath": "G:\\GitHub\\calistadalanegames\\experimental-games-and-prototypes\\Dungeon-TheEvilLair\\src\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cbanw\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -84,14 +52,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\cbanw\\GitHub\\calistadalanegames\\dungine\\Dungine\\Dungine.Core\\src\\Dungine.Core.csproj": {
-              "projectPath": "C:\\Users\\cbanw\\GitHub\\calistadalanegames\\dungine\\Dungine\\Dungine.Core\\src\\Dungine.Core.csproj"
-            },
-            "C:\\Users\\cbanw\\GitHub\\calistadalanegames\\dungine\\Dungine\\Dungine.Text\\src\\Dungine.Text.csproj": {
-              "projectPath": "C:\\Users\\cbanw\\GitHub\\calistadalanegames\\dungine\\Dungine\\Dungine.Text\\src\\Dungine.Text.csproj"
-            },
-            "C:\\Users\\cbanw\\GitHub\\calistadalanegames\\dungine\\Dungine\\src\\Dungine.csproj": {
-              "projectPath": "C:\\Users\\cbanw\\GitHub\\calistadalanegames\\dungine\\Dungine\\src\\Dungine.csproj"
+            "G:\\GitHub\\calistadalanegames\\dungine\\Dungine\\src\\Dungine.csproj": {
+              "projectPath": "G:\\GitHub\\calistadalanegames\\dungine\\Dungine\\src\\Dungine.csproj"
             }
           }
         }
