@@ -9,13 +9,17 @@
  * AUTHOR(S): development@aprettycoolprogram.com
  */
 
+using Dungine.InputOutput;
+
 namespace Dungeon_TheEvilLair
 {
     internal class Program
     {
         private static void Main(string[] args)
         {
-            Dungine.Generic.GenericGame.New();
+            //Dungine.Generic.GenericGame.NewTemplate();
+
+            Dungine.Common.Game game = (Dungine.Common.Game)LoadData.Json("dungine_generic-game.json");
 
         }
     }
