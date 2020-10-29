@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Dungeon-TheEvilLair/1.0.0": {
+        "dependencies": {
+          "Dungine": "1.0.0"
+        },
+        "runtime": {
+          "Dungeon-TheEvilLair.dll": {}
+        }
+      },
+      "Dungine/1.0.0": {
+        "runtime": {
+          "Dungine.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Dungeon-TheEvilLair/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Dungine/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

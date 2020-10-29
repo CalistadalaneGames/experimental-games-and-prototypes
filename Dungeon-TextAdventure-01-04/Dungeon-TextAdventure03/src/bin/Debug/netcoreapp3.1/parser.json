@@ -1,0 +1,21 @@
+{
+  "Actions": [
+    "go",
+    "move",
+    "walk",
+    "look",
+    "take"
+  ],
+  "Cardinals": [
+    "north",
+    "east",
+    "south",
+    "west"
+  ],
+  "Objects": [
+    "apple",
+    "pear",
+    "door",
+    "table"
+  ]
+}
