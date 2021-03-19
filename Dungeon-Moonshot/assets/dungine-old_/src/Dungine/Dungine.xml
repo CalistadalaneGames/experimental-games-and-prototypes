@@ -1,0 +1,238 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Dungine</name>
+    </assembly>
+    <members>
+        <member name="T:Dungine.Game.Detail">
+            <summary>
+            The <c>Game.Detail</c> object contains various game details, including:
+            <list type="bullet">
+                <item>
+                    <term>Title</term>
+                    <description>The game title.</description>
+                </item>
+                <item>
+                    <term>SubTitle</term>
+                    <description>The game subtitle.</description>
+                </item>
+                <item>
+                    <term>Genre</term>
+                    <description>The game genre.</description>
+                </item>
+            </list>
+        </summary>
+        </member>
+        <member name="P:Dungine.Game.Detail.Title">
+            <summary>
+            The game title.
+            <para>
+                <example>Example: <c>"Dungeon"</c></example>
+            </para>
+        </summary>
+        </member>
+        <member name="P:Dungine.Game.Detail.SubTitle">
+            <summary>
+            The game sub-title.
+            <para>
+                <example>Example: <c>"A Scary Adventure"</c></example>
+            </para>
+        </summary>
+        </member>
+        <member name="P:Dungine.Game.Detail.Genre">
+            <summary>
+            The game genre, which can be:
+            <list type="bullet">
+                <item>
+                    <term>text-adventure</term>
+                    <description>A text adventure game</description>
+                </item>
+            </list>
+            <para>
+                <example>Example: <c>"text-adventure"</c></example>
+            </para>
+        </summary>
+        </member>
+        <member name="T:Dungine.Game.Rule">
+            <summary>
+            The <c>Game.Rule</c> object contains game rules, including:
+            <list type="bullet">
+                <item>
+                    <term>MinPlayer</term>
+                    <description>The minimum number of players.</description>
+                </item>
+                <item>
+                    <term>MaxPlayer</term>
+                    <description>The maximum number of players.</description>
+                </item>
+                <item>
+                    <term>StartRoom</term>
+                    <description>The game's starting room.</description>
+                </item>
+                <item>
+                    <term>EntranceRoom</term>
+                    <description>The game's entrance room.</description>
+                </item>
+                <item>
+                    <term>ExitRoom</term>
+                    <description>The game's exit room.</description>
+                </item>
+            </list>
+        </summary>
+        </member>
+        <member name="P:Dungine.Game.Rule.MinPlayer">
+            <summary>
+            The minimum number of players.
+            <para>
+                <example>Example: <c>"1"</c></example>
+            </para>
+        </summary><remarks>
+            The minimum number of players must be &gt; 0
+        </remarks><summary>
+            The minimum number of players.
+            <para>
+                <example>Example: <c>"1"</c></example>
+            </para>
+        </summary><remarks>
+            The minimum number of players must be &gt; 0
+        </remarks>
+        </member>
+        <member name="P:Dungine.Game.Rule.MaxPlayer">
+            <summary>
+            The maximum number of players.
+            <para>
+                <example>Example: <c>"3"</c></example>
+            </para>
+        </summary><remarks>
+            The maximum number of players must be &lt; 5
+        </remarks><summary>
+            The maximum number of players.
+            <para>
+                <example>Example: <c>"3"</c></example>
+            </para>
+        </summary><remarks>
+            The maximum number of players must be &lt; 5
+        </remarks>
+        </member>
+        <member name="P:Dungine.Game.Rule.StartRoom">
+            <!-- No matching elements were found for the following include tag --><include file="Rule.xml" path="class/member[@name=&quot;StartRoom&quot;]/*" />
+        </member>
+        <member name="P:Dungine.Game.Rule.EntranceRoom">
+            <!-- No matching elements were found for the following include tag --><include file="Rule.xml" path="class/member[@name=&quot;EntranceRoom&quot;]/*" />
+        </member>
+        <member name="P:Dungine.Game.Rule.ExitRoom">
+            <!-- No matching elements were found for the following include tag --><include file="Rule.xml" path="class/member[@name=&quot;ExitRoom&quot;]/*" />
+        </member>
+        <member name="T:Dungine.Player.Inventory">
+            <summary>
+            The <c>Player.Inventory</c> object contains the player inventory, including:
+            <list type="bullet">
+                <item>
+                    <term>PaperDoll</term>
+                    <description>Equipped stuff</description>
+                </item>
+                <item>
+                    <term>Backpack</term>
+                    <description>A bag that holds stuff.</description>
+                </item>
+            </list>
+        </summary>
+        </member>
+        <member name="P:Dungine.Player.Inventory.PaperDoll">
+            <!-- No matching elements were found for the following include tag --><include file="Inventory.xml" path="class/member[@name=&quot;PaperDoll&quot;]/*" />
+        </member>
+        <member name="P:Dungine.Player.Inventory.Backpack">
+            <summary>
+            Contents of a character's backpack.
+            <para>
+                <example>Example: <c>"Water, Blanket, Red key"</c></example>
+            </para>
+        </summary><remarks>
+            No limit.
+        </remarks>
+        </member>
+        <member name="T:Dungine.Player.Inventory.Equipped">
+            <summary>
+            A list of what the character has equipped in the following slots:
+            <list type="bullet">
+                <item>
+                    <term>Head</term>
+                    <description>Helmets, hats, etc.</description>
+                </item>
+                <item>
+                    <term>Torso</term>
+                    <description>Armor, shirts, etc.</description>
+                </item>
+                <item>
+                    <term>Leg</term>
+                    <description>Armor, pants, skirts, etc.</description>
+                </item>
+                <item>
+                    <term>Foot</term>
+                    <description>Boots, shoes, etc.</description>
+                </item>
+            </list>
+        </summary>
+        </member>
+        <member name="P:Dungine.Player.Inventory.Equipped.Head">
+            <summary>
+            Equipment on a character's head.
+            <para>
+                <example>Example: <c>"Helmet"</c></example>
+            </para>
+        </summary>
+        </member>
+        <member name="P:Dungine.Player.Inventory.Equipped.Torso">
+            <summary>
+            Equipment on a character's torso.
+            <para>
+                <example>Example: <c>"Shirt"</c></example>
+            </para>
+        </summary>
+        </member>
+        <member name="P:Dungine.Player.Inventory.Equipped.Leg">
+            <summary>
+            Equipment on a character's legs.
+            <para>
+                <example>Example: <c>"Pants"</c></example>
+            </para>
+        </summary>
+        </member>
+        <member name="P:Dungine.Player.Inventory.Equipped.Foot">
+            <summary>
+            Equipment on a character's feet.
+            <para>
+                <example>Example: <c>"Boots"</c></example>
+            </para>
+        </summary>
+        </member>
+        <member name="T:Dungine.Player.State">
+            <summary>
+            The <c>Player.State</c> object contains various player states, including:
+            <list type="bullet">
+                <item>
+                    <term>IsAlive</term>
+                    <description>Is the player alive?</description>
+                </item>
+                <item>
+                    <term>InDungeon</term>
+                    <description>Is the player currently in the dungeon?</description>
+                </item>
+            </list>
+        </summary>
+        </member>
+        <member name="P:Dungine.Player.State.IsAlive">
+            <summary>
+            Is the player alive?
+            <para>
+                <example>Example: <c>"true"</c></example>
+            </para>
+        </summary><remarks>
+            The value must be "true" or "false".
+        </remarks>
+        </member>
+        <member name="P:Dungine.Player.State.IsInDungeon">
+            <!-- No matching elements were found for the following include tag --><include file="State.xml" path="class/member[@name=&quot;IsInDungeon&quot;]/*" />
+        </member>
+    </members>
+</doc>

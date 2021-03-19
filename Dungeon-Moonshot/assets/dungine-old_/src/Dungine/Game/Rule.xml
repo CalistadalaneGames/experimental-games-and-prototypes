@@ -1,0 +1,109 @@
+﻿<!--
+    Dungine.Game.Rule.cs
+    Dungine.Game.Rule.Property.cs
+-->
+<class>
+    <!-- Dungine.Game.Rule.cs -->
+    <member name="Rule">
+        <summary>
+            The <c>Game.Rule</c> object contains game rules, including:
+            <list type="bullet">
+                <item>
+                    <term>MinPlayer</term>
+                    <description>The minimum number of players.</description>
+                </item>
+                <item>
+                    <term>MaxPlayer</term>
+                    <description>The maximum number of players.</description>
+                </item>
+                <item>
+                    <term>StartRoom</term>
+                    <description>The game's starting room.</description>
+                </item>
+                <item>
+                    <term>EntranceRoom</term>
+                    <description>The game's entrance room.</description>
+                </item>
+                <item>
+                    <term>ExitRoom</term>
+                    <description>The game's exit room.</description>
+                </item>
+            </list>
+        </summary>
+    </member>
+    <!-- Dungine.Game.Rule.Property.cs -->
+    <member name="MinPlayer">
+        <summary>
+            The minimum number of players.
+            <para>
+                <example>Example: <c>"1"</c></example>
+            </para>
+        </summary>
+        <remarks>
+            The minimum number of players must be &gt; 0
+        </remarks>
+    </member>
+    <member name="MaxPlayer">
+        <summary>
+            The maximum number of players.
+            <para>
+                <example>Example: <c>"3"</c></example>
+            </para>
+        </summary>
+        <remarks>
+            The maximum number of players must be &lt; 5
+        </remarks>
+    </member>
+    <member name="Title">
+        <summary>
+            The game title.
+            <para>
+                <example>Example: <c>"Dungeon"</c></example>
+            </para>
+        </summary>
+    </member>
+    <member name="SubTitle">
+        <summary>
+            The game sub-title.
+            <para>
+                <example>Example: <c>"A Scary Adventure"</c></example>
+            </para>
+        </summary>
+    </member>
+    <member name="Genre">
+        <summary>
+            The game genre, which can be:
+            <list type="bullet">
+                <item>
+                    <term>text-adventure</term>
+                    <description>A text adventure game</description>
+                </item>
+            </list>
+            <para>
+                <example>Example: <c>"text-adventure"</c></example>
+            </para>
+        </summary>
+    </member>
+    <member name="MinPlayer">
+        <summary>
+            The minimum number of players.
+            <para>
+                <example>Example: <c>"1"</c></example>
+            </para>
+        </summary>
+        <remarks>
+            The minimum number of players must be &gt; 0
+        </remarks>
+    </member>
+    <member name="MaxPlayer">
+        <summary>
+            The maximum number of players.
+            <para>
+                <example>Example: <c>"3"</c></example>
+            </para>
+        </summary>
+        <remarks>
+            The maximum number of players must be &lt; 5
+        </remarks>
+    </member>
+</class>

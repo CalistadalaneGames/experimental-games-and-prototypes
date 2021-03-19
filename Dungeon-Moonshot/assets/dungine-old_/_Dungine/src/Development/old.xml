@@ -1,0 +1,95 @@
+﻿<docs>
+    <members name="GameInstance">
+        <summary>
+            The GameInstance object.
+        </summary>
+        <remarks>
+            <para>
+                The <c>GameInstance</c> object contains all of the components for a single game.
+            </para>
+            <para>
+                For more information on the <c>GameInstance</c> object, please see the Dungine Manual.
+            </para>
+        </remarks>
+        <NewTemplate>
+            <summary>
+                Creates a new, blank <c>GameInstance</c> object.
+            </summary>
+            <remarks>
+                <para>
+                    For more information on <c>GameInstance.NewTemplate</c>, please see the Dungine Manual.
+                </para>
+            </remarks>
+        </NewTemplate>
+        <CreateTemplate>
+            <summary>
+                Creates a new, blank <c>GameInstance</c> object.
+            </summary>
+            <remarks>
+                <para>
+                    For more information on <c>GameInstance.NewTemplate</c>, please see the Dungine Manual.
+                </para>
+            </remarks>
+        </CreateTemplate>
+    </members>
+    <members name="GameDetail">
+        <summary>
+            The GameDetail object.
+        </summary>
+        <remarks>
+            <para>
+                The <c>GameDetail</c> object contains game details, for example the "title" and "genre".
+            </para>
+            <para>
+                For more information on the <c>GameDetail</c> object, please see the Dungine Manual.
+            </para>
+        </remarks>
+        <Title>
+            <summary>
+                The game title (i.e. "Dungeon")
+            </summary>
+        </Title>
+        <SubTitle>
+            <summary>
+                The game subtitle (i.e. "A Scary Adventure")
+            </summary>
+        </SubTitle>
+        <Genre>
+            <summary>
+                The game genre (i.e. "text-adventure")
+            </summary>
+        </Genre>
+    </members>
+
+
+    <members name="GameRule">
+        <summary>
+            The GameRule object.
+        </summary>
+        <remarks>
+            <para>
+                The <c>GameRule</c> object the game rules, for example the 
+            </para>
+            <para>
+                For more information on the <c>GameDetail</c> object, please see the Dungine Manual.
+            </para>
+        </remarks>
+         <Title>
+            <summary>
+                The game title (i.e. "Dungeon")
+            </summary>
+        </Title>
+        <SubTitle>
+            <summary>
+                The game subtitle (i.e. "A Scary Adventure")
+            </summary>
+        </SubTitle>
+        <Genre>
+            <summary>
+                The game genre (i.e. "text-adventure")
+            </summary>
+        </Genre>
+    </members>
+
+
+</docs>

@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyVersion>0.7.20304.1811</AssemblyVersion>
+    <FileVersion>0.7.20304.1811</FileVersion>
+    <Version>0.0.0.0</Version>
+    <Authors>A Pretty Cool Program &amp; Calistadalane Games</Authors>
+    <Description>A game engine</Description>
+    <Copyright>2020 A Pretty Cool Program &amp; Calistadalane Games</Copyright>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath></OutputPath>
+    <DocumentationFile>F:\GitHub\calistadalanegames\dungine\src\Dungine\Dungine.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\aprettycoolprogram\du\src\Du.cs\Du.csproj" />
+    <ProjectReference Include="..\Dungine.TextAdventure\Dungine.TextAdventure.csproj" />
+  </ItemGroup>
+
+</Project>

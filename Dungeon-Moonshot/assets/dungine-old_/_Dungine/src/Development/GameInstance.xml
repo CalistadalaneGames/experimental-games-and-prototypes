@@ -1,0 +1,36 @@
+﻿<!--
+    Dungine.Common.GameInstance.cs
+    Dungine.Common.GameInstanceProperties.cs
+-->
+<class>
+    <!-- Dungine.Common.GameInstance.cs -->
+    <member name="GameInstance">
+        <summary>
+            The <c>GameInstance</c> object contains all game components, including:
+            <list type="bullet">
+                <item>
+                    <term>Detail</term>
+                    <description>The <c>GameDetail</c> object.</description>                
+                </item>
+                <item>
+                    <term>Rule</term>
+                    <description>The <c>GameRule</c> object.</description>                
+                </item>
+                <item>
+                    <term>State</term>
+                    <description>The <c>GameState</c> object.</description>                
+                </item>
+                <item>
+                    <term>Message</term>
+                    <description>The <c>GameState</c> object dictionary.</description>                
+                </item>
+                <item>
+                    <term>Room</term>
+                    <description>The <c>GameRoom</c> object dictionary.</description>                
+                </item>
+            </list>
+        </summary>
+    </member>
+    <!-- Dungine.Common.GameInstance.Properties.cs -->   
+    <!-- Nothing here yet. -->
+</class>
