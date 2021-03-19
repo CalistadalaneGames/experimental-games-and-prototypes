@@ -1,0 +1,89 @@
+﻿<!--
+    Dungine.Player.Inventory.cs
+    Dungine.Player.Inventory.Property.cs
+-->
+<class>
+    <!-- Dungine.Player.Inventory.cs -->
+    <member name="Inventory">
+        <summary>
+            The <c>Player.Inventory</c> object contains the player inventory, including:
+            <list type="bullet">
+                <item>
+                    <term>PaperDoll</term>
+                    <description>Equipped stuff</description>
+                </item>
+                <item>
+                    <term>Backpack</term>
+                    <description>A bag that holds stuff.</description>
+                </item>
+            </list>
+        </summary>
+    </member>
+    <!-- Dungine.Player.Inventory.Property.cs -->
+    <member name="Equipped">
+        <summary>
+            A list of what the character has equipped in the following slots:
+            <list type="bullet">
+                <item>
+                    <term>Head</term>
+                    <description>Helmets, hats, etc.</description>
+                </item>
+                <item>
+                    <term>Torso</term>
+                    <description>Armor, shirts, etc.</description>
+                </item>
+                <item>
+                    <term>Leg</term>
+                    <description>Armor, pants, skirts, etc.</description>
+                </item>
+                <item>
+                    <term>Foot</term>
+                    <description>Boots, shoes, etc.</description>
+                </item>
+            </list>
+        </summary>
+    </member>
+    <member name="Equipped.Head">
+        <summary>
+            Equipment on a character's head.
+            <para>
+                <example>Example: <c>"Helmet"</c></example>
+            </para>
+        </summary>
+    </member>
+    <member name="Equipped.Torso">
+        <summary>
+            Equipment on a character's torso.
+            <para>
+                <example>Example: <c>"Shirt"</c></example>
+            </para>
+        </summary>
+    </member>
+        <member name="Equipped.Leg">
+        <summary>
+            Equipment on a character's legs.
+            <para>
+                <example>Example: <c>"Pants"</c></example>
+            </para>
+        </summary>
+    </member>
+    <member name="Equipped.Foot">
+        <summary>
+            Equipment on a character's feet.
+            <para>
+                <example>Example: <c>"Boots"</c></example>
+            </para>
+        </summary>
+    </member>
+    <member name="Backpack">
+        <summary>
+            Contents of a character's backpack.
+            <para>
+                <example>Example: <c>"Water, Blanket, Red key"</c></example>
+            </para>
+        </summary>
+        <remarks>
+            No limit.
+        </remarks>
+    </member>
+</class>

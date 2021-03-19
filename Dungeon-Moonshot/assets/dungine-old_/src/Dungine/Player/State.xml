@@ -1,0 +1,45 @@
+﻿<!--
+    Dungine.Player.State.cs
+    Dungine.Player.State.Property.cs
+-->
+<class>
+    <!-- Dungine.Player.State.cs -->
+    <member name="State">
+        <summary>
+            The <c>Player.State</c> object contains various player states, including:
+            <list type="bullet">
+                <item>
+                    <term>IsAlive</term>
+                    <description>Is the player alive?</description>
+                </item>
+                <item>
+                    <term>InDungeon</term>
+                    <description>Is the player currently in the dungeon?</description>
+                </item>
+            </list>
+        </summary>
+    </member>
+    <!-- Dungine.Player.State.Property.cs -->
+    <member name="IsAlive">
+        <summary>
+            Is the player alive?
+            <para>
+                <example>Example: <c>"true"</c></example>
+            </para>
+        </summary>
+        <remarks>
+            The value must be "true" or "false".
+        </remarks>
+    </member>
+    <member name="InDungeon">
+        <summary>
+            Is the player currently in the dungeon?
+            <para>
+                <example>Example: <c>"true"</c></example>
+            </para>
+        </summary>
+        <remarks>
+            The value must be "true" or "false".
+        </remarks>
+    </member>
+</class>

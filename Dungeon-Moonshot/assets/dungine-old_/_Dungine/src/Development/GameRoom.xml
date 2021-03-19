@@ -1,0 +1,39 @@
+﻿<!--
+    Dungine.Common.GameMessage.cs
+    Dungine.Common.GameMessageProperties.cs
+-->
+<class>
+    <!-- Dungine.Common.GameMessage.cs -->
+    <member name="GameMessage">
+        <summary>
+            The <c>GameMessage</c> object contains a message for the user, including:
+            <list type="bullet">
+                <item>
+                    <term>Subject</term>
+                    <description>The message subject.</description>                
+                </item>
+                <item>
+                    <term>Body</term>
+                    <description>The message body.</description>                
+                </item>
+            </list>
+        </summary>
+    </member>
+    <!-- Dungine.Common.GameMessage.Properties.cs -->   
+    <member name="Subject">
+        <summary>
+            The message subject.
+            <para>
+                <example>Example: <c>"Welcome to the game!"</c></example>
+            </para>
+        </summary>
+    </member>
+    <member name="Body">
+        <summary>
+            The message body.
+            <para>
+                <example>Example: <c>"This might be kind of scary!\nHave fun!"</c></example>
+            </para>
+        </summary>
+    </member>
+</class>

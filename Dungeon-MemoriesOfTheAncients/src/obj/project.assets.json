@@ -1,0 +1,123 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "Du/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/Du.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Du.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "DUNGINE/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "dependencies": {
+          "Du": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DUNGINE.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DUNGINE.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "Du/1.0.0": {
+      "type": "project",
+      "path": "../../../Du/src/Du.csproj",
+      "msbuildProject": "../../../Du/src/Du.csproj"
+    },
+    "DUNGINE/1.0.0": {
+      "type": "project",
+      "path": "../../../DUNGINE/src/DUNGINE.csproj",
+      "msbuildProject": "../../../DUNGINE/src/DUNGINE.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.0": [
+      "DUNGINE >= 1.0.0",
+      "Du >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\chris.banwarth\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\chris.banwarth\\GitHub\\Dungeons\\Dungeons_MemoriesOfTheAncients\\src\\Dungeons_MemoriesOfTheAncients.csproj",
+      "projectName": "Dungeons_MemoriesOfTheAncients",
+      "projectPath": "C:\\Users\\chris.banwarth\\GitHub\\Dungeons\\Dungeons_MemoriesOfTheAncients\\src\\Dungeons_MemoriesOfTheAncients.csproj",
+      "packagesPath": "C:\\Users\\chris.banwarth\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\chris.banwarth\\GitHub\\Dungeons\\Dungeons_MemoriesOfTheAncients\\src\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\chris.banwarth\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "projectReferences": {
+            "C:\\Users\\chris.banwarth\\GitHub\\DUNGINE\\src\\DUNGINE.csproj": {
+              "projectPath": "C:\\Users\\chris.banwarth\\GitHub\\DUNGINE\\src\\DUNGINE.csproj"
+            },
+            "C:\\Users\\chris.banwarth\\GitHub\\Du\\src\\Du.csproj": {
+              "projectPath": "C:\\Users\\chris.banwarth\\GitHub\\Du\\src\\Du.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

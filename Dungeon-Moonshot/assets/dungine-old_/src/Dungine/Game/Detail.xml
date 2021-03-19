@@ -1,0 +1,57 @@
+﻿<!--
+    Dungine.Game.Detail.cs
+    Dungine.Game.Detail.Property.cs
+-->
+<class>
+    <!-- Dungine.Game.Detail.cs -->
+    <member name="Detail">
+        <summary>
+            The <c>Game.Detail</c> object contains various game details, including:
+            <list type="bullet">
+                <item>
+                    <term>Title</term>
+                    <description>The game title.</description>
+                </item>
+                <item>
+                    <term>SubTitle</term>
+                    <description>The game subtitle.</description>
+                </item>
+                <item>
+                    <term>Genre</term>
+                    <description>The game genre.</description>
+                </item>
+            </list>
+        </summary>
+    </member>
+    <!-- Dungine.Game.Detail.Property.cs -->
+    <member name="Title">
+        <summary>
+            The game title.
+            <para>
+                <example>Example: <c>"Dungeon"</c></example>
+            </para>
+        </summary>
+    </member>
+    <member name="SubTitle">
+        <summary>
+            The game sub-title.
+            <para>
+                <example>Example: <c>"A Scary Adventure"</c></example>
+            </para>
+        </summary>
+    </member>
+    <member name="Genre">
+        <summary>
+            The game genre, which can be:
+            <list type="bullet">
+                <item>
+                    <term>text-adventure</term>
+                    <description>A text adventure game</description>
+                </item>
+            </list>
+            <para>
+                <example>Example: <c>"text-adventure"</c></example>
+            </para>
+        </summary>
+    </member>
+</class>

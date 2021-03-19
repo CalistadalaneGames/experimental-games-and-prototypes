@@ -1,0 +1,356 @@
+{
+	"Messages": {
+		"playerWelcome": {
+			"Subject": "Welcome to Dungine: Text Adventure 03!",
+			"Body": "This is a scary adventure. Only the bravest will survive!"
+		},
+		"playerVictory": {
+			"Subject": "You won!",
+			"Body": "You are a great adventurer!"
+		},
+		"playerDefeat": {
+			"Subject": "You lost!",
+			"Body": "Try again sometime!"
+		}
+	},
+	"Rooms": {
+		"0": {
+			"Name": "Dungeon entrance",
+			"Description": "Before you is the entrance to a scary dungeon!",
+			"Cardinals": {
+				"North": {
+					"ToRoomNumber": "1",
+					"Verbs": [
+						"go"
+					],
+					"Nouns": [
+						"door"
+					],
+					"Objects": null
+				},
+				"NorthNorthEast": {
+					"ToRoomNumber": "none",
+					"Verbs": null,
+					"Nouns": null,
+					"Objects": null
+				},
+				"NorthEast": {
+					"ToRoomNumber": "none",
+					"Verbs": null,
+					"Nouns": null,
+					"Objects": null
+				},
+				"EastNorthEast": {
+					"ToRoomNumber": "none",
+					"Verbs": null,
+					"Nouns": null,
+					"Objects": null
+				},
+				"East": {
+					"ToRoomNumber": "none",
+					"Verbs": null,
+					"Nouns": null,
+					"Objects": null
+				},
+				"EastSouthEast": {
+					"ToRoomNumber": "none",
+					"Verbs": null,
+					"Nouns": null,
+					"Objects": null
+				},
+				"SouthEast": {
+					"ToRoomNumber": "none",
+					"Verbs": null,
+					"Nouns": null,
+					"Objects": null
+				},
+				"SouthSouthEast": {
+					"ToRoomNumber": "none",
+					"Verbs": null,
+					"Nouns": null,
+					"Objects": null
+				},
+				"South": {
+					"ToRoomNumber": "town",
+					"Verbs": [
+						"go"
+					],
+					"Nouns": [
+						"door"
+					],
+					"Objects": null
+				},
+				"SouthSouthWest": {
+					"ToRoomNumber": "none",
+					"Verbs": null,
+					"Nouns": null,
+					"Objects": null
+				},
+				"SouthWest": {
+					"ToRoomNumber": "none",
+					"Verbs": null,
+					"Nouns": null,
+					"Objects": null
+				},
+				"WestSouthWest": {
+					"ToRoomNumber": "none",
+					"Verbs": null,
+					"Nouns": null,
+					"Objects": null
+				},
+				"West": {
+					"ToRoomNumber": "none",
+					"Verbs": null,
+					"Nouns": null,
+					"Objects": null
+				},
+				"WestNorthWest": {
+					"ToRoomNumber": "none",
+					"Verbs": null,
+					"Nouns": null,
+					"Objects": null
+				},
+				"NorthWest": {
+					"ToRoomNumber": "none",
+					"Verbs": null,
+					"Nouns": null,
+					"Objects": null
+				},
+				"NorthNorthWest": {
+					"ToRoomNumber": "none",
+					"Verbs": null,
+					"Nouns": null,
+					"Objects": null
+				}
+			}
+		},
+		"1": {
+			"Name": "The first room",
+			"Description": "This is the first room of the dungeon. It smells yucky!",
+			"Cardinals": {
+				"North": {
+					"ToRoomNumber": "2",
+					"Verbs": [
+						"go"
+					],
+					"Nouns": [
+						"door"
+					],
+					"Objects": null
+				},
+				"NorthNorthEast": {
+					"ToRoomNumber": "none",
+					"Verbs": null,
+					"Nouns": null,
+					"Objects": null
+				},
+				"NorthEast": {
+					"ToRoomNumber": "none",
+					"Verbs": null,
+					"Nouns": null,
+					"Objects": null
+				},
+				"EastNorthEast": {
+					"ToRoomNumber": "none",
+					"Verbs": null,
+					"Nouns": null,
+					"Objects": null
+				},
+				"East": {
+					"ToRoomNumber": "none",
+					"Verbs": null,
+					"Nouns": null,
+					"Objects": null
+				},
+				"EastSouthEast": {
+					"ToRoomNumber": "none",
+					"Verbs": null,
+					"Nouns": null,
+					"Objects": null
+				},
+				"SouthEast": {
+					"ToRoomNumber": "none",
+					"Verbs": null,
+					"Nouns": null,
+					"Objects": null
+				},
+				"SouthSouthEast": {
+					"ToRoomNumber": "none",
+					"Verbs": null,
+					"Nouns": null,
+					"Objects": null
+				},
+				"South": {
+					"ToRoomNumber": "0",
+					"Verbs": [
+						"go"
+					],
+					"Nouns": [
+						"door"
+					],
+					"Objects": null
+				},
+				"SouthSouthWest": {
+					"ToRoomNumber": "none",
+					"Verbs": null,
+					"Nouns": null,
+					"Objects": null
+				},
+				"SouthWest": {
+					"ToRoomNumber": "none",
+					"Verbs": null,
+					"Nouns": null,
+					"Objects": null
+				},
+				"WestSouthWest": {
+					"ToRoomNumber": "none",
+					"Verbs": null,
+					"Nouns": null,
+					"Objects": null
+				},
+				"West": {
+					"ToRoomNumber": "none",
+					"Verbs": null,
+					"Nouns": null,
+					"Objects": null
+				},
+				"WestNorthWest": {
+					"ToRoomNumber": "none",
+					"Verbs": null,
+					"Nouns": null,
+					"Objects": null
+				},
+				"NorthWest": {
+					"ToRoomNumber": "none",
+					"Verbs": null,
+					"Nouns": null,
+					"Objects": null
+				},
+				"NorthNorthWest": {
+					"ToRoomNumber": "none",
+					"Verbs": null,
+					"Nouns": null,
+					"Objects": null
+				}
+			}
+		},
+		"2": {
+			"Name": "A storage room",
+			"Description": "It looks like this is where random stuff is stored.",
+			"Cardinals": {
+				"North": {
+					"ToRoomNumber": "999",
+					"Verbs": [
+						"go"
+					],
+					"Nouns": [
+						"door"
+					],
+					"Objects": null
+				},
+				"NorthNorthEast": {
+					"ToRoomNumber": "none",
+					"Verbs": null,
+					"Nouns": null,
+					"Objects": null
+				},
+				"NorthEast": {
+					"ToRoomNumber": "none",
+					"Verbs": null,
+					"Nouns": null,
+					"Objects": null
+				},
+				"EastNorthEast": {
+					"ToRoomNumber": "none",
+					"Verbs": null,
+					"Nouns": null,
+					"Objects": null
+				},
+				"East": {
+					"ToRoomNumber": "none",
+					"Verbs": null,
+					"Nouns": null,
+					"Objects": null
+				},
+				"EastSouthEast": {
+					"ToRoomNumber": "none",
+					"Verbs": null,
+					"Nouns": null,
+					"Objects": null
+				},
+				"SouthEast": {
+					"ToRoomNumber": "none",
+					"Verbs": null,
+					"Nouns": null,
+					"Objects": null
+				},
+				"SouthSouthEast": {
+					"ToRoomNumber": "none",
+					"Verbs": null,
+					"Nouns": null,
+					"Objects": null
+				},
+				"South": {
+					"ToRoomNumber": "1",
+					"Verbs": [
+						"go"
+					],
+					"Nouns": [
+						"door"
+					],
+					"Objects": null
+				},
+				"SouthSouthWest": {
+					"ToRoomNumber": "none",
+					"Verbs": null,
+					"Nouns": null,
+					"Objects": null
+				},
+				"SouthWest": {
+					"ToRoomNumber": "none",
+					"Verbs": null,
+					"Nouns": null,
+					"Objects": null
+				},
+				"WestSouthWest": {
+					"ToRoomNumber": "none",
+					"Verbs": null,
+					"Nouns": null,
+					"Objects": null
+				},
+				"West": {
+					"ToRoomNumber": "none",
+					"Verbs": null,
+					"Nouns": null,
+					"Objects": null
+				},
+				"WestNorthWest": {
+					"ToRoomNumber": "none",
+					"Verbs": null,
+					"Nouns": null,
+					"Objects": null
+				},
+				"NorthWest": {
+					"ToRoomNumber": "none",
+					"Verbs": null,
+					"Nouns": null,
+					"Objects": null
+				},
+				"NorthNorthWest": {
+					"ToRoomNumber": "none",
+					"Verbs": null,
+					"Nouns": null,
+					"Objects": null
+				}
+			}
+		}
+	},
+	"Parser": {
+		"Verbs": [
+			"go"
+		],
+		"Nouns": [
+			"door"
+		]
+	}
+}

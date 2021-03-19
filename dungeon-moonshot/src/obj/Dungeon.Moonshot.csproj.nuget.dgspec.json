@@ -1,0 +1,353 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\GitHub\\calistadalanegames\\dungeon-moonshot\\src\\Dungeon.Moonshot.csproj": {}
+  },
+  "projects": {
+    "D:\\GitHub\\calistadalanegames\\dungeon-moonshot\\src\\Dungeon.Moonshot.csproj": {
+      "version": "0.1.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitHub\\calistadalanegames\\dungeon-moonshot\\src\\Dungeon.Moonshot.csproj",
+        "projectName": "Dungeon.Moonshot",
+        "projectPath": "D:\\GitHub\\calistadalanegames\\dungeon-moonshot\\src\\Dungeon.Moonshot.csproj",
+        "packagesPath": "C:\\Users\\cbanw\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\calistadalanegames\\dungeon-moonshot\\src\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cbanw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\GitHub\\aprettycoolprogram\\du\\src\\Du.CLI\\Du.CLI.csproj": {
+                "projectPath": "D:\\GitHub\\aprettycoolprogram\\du\\src\\Du.CLI\\Du.CLI.csproj"
+              },
+              "D:\\GitHub\\aprettycoolprogram\\du\\src\\Du.Core\\Du.Core.csproj": {
+                "projectPath": "D:\\GitHub\\aprettycoolprogram\\du\\src\\Du.Core\\Du.Core.csproj"
+              },
+              "D:\\GitHub\\aprettycoolprogram\\du\\src\\Du.cs\\Du.csproj": {
+                "projectPath": "D:\\GitHub\\aprettycoolprogram\\du\\src\\Du.cs\\Du.csproj"
+              },
+              "D:\\GitHub\\aprettycoolprogram\\du\\src\\Du.WPF\\Du.WPF.csproj": {
+                "projectPath": "D:\\GitHub\\aprettycoolprogram\\du\\src\\Du.WPF\\Du.WPF.csproj"
+              },
+              "D:\\GitHub\\calistadalanegames\\dungine\\src\\Dungine.CLI\\Dungine.CLI.csproj": {
+                "projectPath": "D:\\GitHub\\calistadalanegames\\dungine\\src\\Dungine.CLI\\Dungine.CLI.csproj"
+              },
+              "D:\\GitHub\\calistadalanegames\\dungine\\src\\Dungine.Core\\Dungine.Core.csproj": {
+                "projectPath": "D:\\GitHub\\calistadalanegames\\dungine\\src\\Dungine.Core\\Dungine.Core.csproj"
+              },
+              "D:\\GitHub\\calistadalanegames\\dungine\\src\\Dungine.WPF\\Dungine.WPF.csproj": {
+                "projectPath": "D:\\GitHub\\calistadalanegames\\dungine\\src\\Dungine.WPF\\Dungine.WPF.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.FxCopAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Roslynator.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GitHub\\calistadalanegames\\dungine\\src\\Dungine.CLI\\Dungine.CLI.csproj": {
+      "version": "0.8.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitHub\\calistadalanegames\\dungine\\src\\Dungine.CLI\\Dungine.CLI.csproj",
+        "projectName": "Dungine.CLI",
+        "projectPath": "D:\\GitHub\\calistadalanegames\\dungine\\src\\Dungine.CLI\\Dungine.CLI.csproj",
+        "packagesPath": "C:\\Users\\cbanw\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\calistadalanegames\\dungine\\src\\Dungine.CLI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cbanw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\GitHub\\aprettycoolprogram\\du\\src\\Du.CLI\\Du.CLI.csproj": {
+                "projectPath": "D:\\GitHub\\aprettycoolprogram\\du\\src\\Du.CLI\\Du.CLI.csproj"
+              },
+              "D:\\GitHub\\aprettycoolprogram\\du\\src\\Du.Core\\Du.Core.csproj": {
+                "projectPath": "D:\\GitHub\\aprettycoolprogram\\du\\src\\Du.Core\\Du.Core.csproj"
+              },
+              "D:\\GitHub\\aprettycoolprogram\\du\\src\\Du.cs\\Du.csproj": {
+                "projectPath": "D:\\GitHub\\aprettycoolprogram\\du\\src\\Du.cs\\Du.csproj"
+              },
+              "D:\\GitHub\\aprettycoolprogram\\du\\src\\Du.WPF\\Du.WPF.csproj": {
+                "projectPath": "D:\\GitHub\\aprettycoolprogram\\du\\src\\Du.WPF\\Du.WPF.csproj"
+              },
+              "D:\\GitHub\\calistadalanegames\\dungine\\src\\Dungine.Core\\Dungine.Core.csproj": {
+                "projectPath": "D:\\GitHub\\calistadalanegames\\dungine\\src\\Dungine.Core\\Dungine.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.FxCopAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Roslynator.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GitHub\\calistadalanegames\\dungine\\src\\Dungine.Core\\Dungine.Core.csproj": {
+      "version": "0.8.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitHub\\calistadalanegames\\dungine\\src\\Dungine.Core\\Dungine.Core.csproj",
+        "projectName": "Dungine.Core",
+        "projectPath": "D:\\GitHub\\calistadalanegames\\dungine\\src\\Dungine.Core\\Dungine.Core.csproj",
+        "packagesPath": "C:\\Users\\cbanw\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\calistadalanegames\\dungine\\src\\Dungine.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cbanw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\GitHub\\aprettycoolprogram\\du\\src\\Du.CLI\\Du.CLI.csproj": {
+                "projectPath": "D:\\GitHub\\aprettycoolprogram\\du\\src\\Du.CLI\\Du.CLI.csproj"
+              },
+              "D:\\GitHub\\aprettycoolprogram\\du\\src\\Du.Core\\Du.Core.csproj": {
+                "projectPath": "D:\\GitHub\\aprettycoolprogram\\du\\src\\Du.Core\\Du.Core.csproj"
+              },
+              "D:\\GitHub\\aprettycoolprogram\\du\\src\\Du.cs\\Du.csproj": {
+                "projectPath": "D:\\GitHub\\aprettycoolprogram\\du\\src\\Du.cs\\Du.csproj"
+              },
+              "D:\\GitHub\\aprettycoolprogram\\du\\src\\Du.WPF\\Du.WPF.csproj": {
+                "projectPath": "D:\\GitHub\\aprettycoolprogram\\du\\src\\Du.WPF\\Du.WPF.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.FxCopAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Roslynator.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GitHub\\calistadalanegames\\dungine\\src\\Dungine.WPF\\Dungine.WPF.csproj": {
+      "version": "0.8.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitHub\\calistadalanegames\\dungine\\src\\Dungine.WPF\\Dungine.WPF.csproj",
+        "projectName": "Dungine.WPF",
+        "projectPath": "D:\\GitHub\\calistadalanegames\\dungine\\src\\Dungine.WPF\\Dungine.WPF.csproj",
+        "packagesPath": "C:\\Users\\cbanw\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\calistadalanegames\\dungine\\src\\Dungine.WPF\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cbanw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\GitHub\\aprettycoolprogram\\du\\src\\Du.CLI\\Du.CLI.csproj": {
+                "projectPath": "D:\\GitHub\\aprettycoolprogram\\du\\src\\Du.CLI\\Du.CLI.csproj"
+              },
+              "D:\\GitHub\\aprettycoolprogram\\du\\src\\Du.Core\\Du.Core.csproj": {
+                "projectPath": "D:\\GitHub\\aprettycoolprogram\\du\\src\\Du.Core\\Du.Core.csproj"
+              },
+              "D:\\GitHub\\aprettycoolprogram\\du\\src\\Du.cs\\Du.csproj": {
+                "projectPath": "D:\\GitHub\\aprettycoolprogram\\du\\src\\Du.cs\\Du.csproj"
+              },
+              "D:\\GitHub\\aprettycoolprogram\\du\\src\\Du.WPF\\Du.WPF.csproj": {
+                "projectPath": "D:\\GitHub\\aprettycoolprogram\\du\\src\\Du.WPF\\Du.WPF.csproj"
+              },
+              "D:\\GitHub\\calistadalanegames\\dungine\\src\\Dungine.Core\\Dungine.Core.csproj": {
+                "projectPath": "D:\\GitHub\\calistadalanegames\\dungine\\src\\Dungine.Core\\Dungine.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.FxCopAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Roslynator.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

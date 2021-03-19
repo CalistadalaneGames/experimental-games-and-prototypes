@@ -1,0 +1,193 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\chris.banwarth\\GitHub\\Dungeons\\Dungeons_MemoriesOfTheAncients\\src\\Dungeons_MemoriesOfTheAncients.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\chris.banwarth\\GitHub\\Dungeons\\Dungeons_MemoriesOfTheAncients\\src\\Dungeons_MemoriesOfTheAncients.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\chris.banwarth\\GitHub\\Dungeons\\Dungeons_MemoriesOfTheAncients\\src\\Dungeons_MemoriesOfTheAncients.csproj",
+        "projectName": "Dungeons_MemoriesOfTheAncients",
+        "projectPath": "C:\\Users\\chris.banwarth\\GitHub\\Dungeons\\Dungeons_MemoriesOfTheAncients\\src\\Dungeons_MemoriesOfTheAncients.csproj",
+        "packagesPath": "C:\\Users\\chris.banwarth\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\chris.banwarth\\GitHub\\Dungeons\\Dungeons_MemoriesOfTheAncients\\src\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\chris.banwarth\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\chris.banwarth\\GitHub\\DUNGINE\\src\\DUNGINE.csproj": {
+                "projectPath": "C:\\Users\\chris.banwarth\\GitHub\\DUNGINE\\src\\DUNGINE.csproj"
+              },
+              "C:\\Users\\chris.banwarth\\GitHub\\Du\\src\\Du.csproj": {
+                "projectPath": "C:\\Users\\chris.banwarth\\GitHub\\Du\\src\\Du.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\chris.banwarth\\GitHub\\DUNGINE\\src\\DUNGINE.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\chris.banwarth\\GitHub\\DUNGINE\\src\\DUNGINE.csproj",
+        "projectName": "DUNGINE",
+        "projectPath": "C:\\Users\\chris.banwarth\\GitHub\\DUNGINE\\src\\DUNGINE.csproj",
+        "packagesPath": "C:\\Users\\chris.banwarth\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\chris.banwarth\\GitHub\\DUNGINE\\src\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\chris.banwarth\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\chris.banwarth\\GitHub\\Du\\src\\Du.csproj": {
+                "projectPath": "C:\\Users\\chris.banwarth\\GitHub\\Du\\src\\Du.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\chris.banwarth\\GitHub\\Du\\src\\Du.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\chris.banwarth\\GitHub\\Du\\src\\Du.csproj",
+        "projectName": "Du",
+        "projectPath": "C:\\Users\\chris.banwarth\\GitHub\\Du\\src\\Du.csproj",
+        "packagesPath": "C:\\Users\\chris.banwarth\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\chris.banwarth\\GitHub\\Du\\src\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\chris.banwarth\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

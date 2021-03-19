@@ -1,0 +1,52 @@
+{
+  "version": 2,
+  "dgSpecHash": "iiWO2vwz0X9sR36xKfCMKsXVAsb5Wmy0MFEgisYDGuJWurWUm+jv94EmRJkQwE5PH1jKNHvQuZgi9/WOlbfNUQ==",
+  "success": false,
+  "projectFilePath": "D:\\GitHub\\calistadalanegames\\dungeon-moonshot\\src\\Dungeon.Moonshot.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cbanw\\.nuget\\packages\\microsoft.codeanalysis.fxcopanalyzers\\3.3.1\\microsoft.codeanalysis.fxcopanalyzers.3.3.1.nupkg.sha512",
+    "C:\\Users\\cbanw\\.nuget\\packages\\microsoft.codeanalysis.versioncheckanalyzer\\3.3.1\\microsoft.codeanalysis.versioncheckanalyzer.3.3.1.nupkg.sha512",
+    "C:\\Users\\cbanw\\.nuget\\packages\\microsoft.codequality.analyzers\\3.3.1\\microsoft.codequality.analyzers.3.3.1.nupkg.sha512",
+    "C:\\Users\\cbanw\\.nuget\\packages\\microsoft.netcore.analyzers\\3.3.1\\microsoft.netcore.analyzers.3.3.1.nupkg.sha512",
+    "C:\\Users\\cbanw\\.nuget\\packages\\microsoft.netframework.analyzers\\3.3.1\\microsoft.netframework.analyzers.3.3.1.nupkg.sha512",
+    "C:\\Users\\cbanw\\.nuget\\packages\\roslynator.analyzers\\3.0.0\\roslynator.analyzers.3.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'D:\\GitHub\\aprettycoolprogram\\du\\src\\Du.cs\\Du.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "D:\\GitHub\\aprettycoolprogram\\du\\src\\Du.cs\\Du.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'D:\\GitHub\\aprettycoolprogram\\du\\src\\Du.WPF\\Du.WPF.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "D:\\GitHub\\aprettycoolprogram\\du\\src\\Du.WPF\\Du.WPF.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'D:\\GitHub\\aprettycoolprogram\\du\\src\\Du.Core\\Du.Core.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "D:\\GitHub\\aprettycoolprogram\\du\\src\\Du.Core\\Du.Core.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'D:\\GitHub\\aprettycoolprogram\\du\\src\\Du.CLI\\Du.CLI.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "D:\\GitHub\\aprettycoolprogram\\du\\src\\Du.CLI\\Du.CLI.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

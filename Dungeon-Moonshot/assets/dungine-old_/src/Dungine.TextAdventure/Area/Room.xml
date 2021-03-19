@@ -1,0 +1,39 @@
+﻿<!--
+    Dungine.TextAdventure.Area.Room.cs
+    Dungine.TextAdventure.Area.Property.cs
+-->
+<class>
+    <!-- Dungine.TextAdventure.Area.Room.cs -->
+    <member name="Room">
+        <summary>
+            The <c>Area.Room</c> object contains information about rooms in a game, including:
+            <list type="bullet">
+                <item>
+                    <term>Name</term>
+                    <description>The room name.</description>
+                </item>
+                <item>
+                    <term>Description</term>
+                    <description>The room description.</description>
+                </item>
+            </list>
+        </summary>
+    </member>
+    <!-- Dungine.TextAdventure.Area.Room.Property.cs -->
+    <member name="Name">
+        <summary>
+            The room name.
+            <para>
+                <example>Example: <c>"Master bedroom"</c></example>
+            </para>
+        </summary>
+    </member>
+    <member name="Description">
+        <summary>
+            The description of the room.
+            <para>
+                <example>Example: <c>"A simple bedroom with a bed, desk, and chair."</c></example>
+            </para>
+        </summary>
+    </member>
+</class>

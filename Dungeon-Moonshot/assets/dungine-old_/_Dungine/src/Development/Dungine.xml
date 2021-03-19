@@ -1,0 +1,232 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Dungine</name>
+    </assembly>
+    <members>
+        <member name="T:Dungine.Common.GameDetail">
+            <summary>
+            The <c>GameDetail</c> object contains various game details, including:
+            <list type="bullet">
+                <item>
+                    <term>Title</term>
+                    <description>The game title.</description>                
+                </item>
+                <item>
+                    <term>SubTitle</term>
+                    <description>The game subtitle.</description>                
+                </item>
+                <item>
+                    <term>Genre</term>
+                    <description>The game genre.</description>                
+                </item>
+                <item>
+                    <term>MinPlayer</term>
+                    <description>Minimum number of players.</description>                
+                </item>
+                <item>
+                    <term>MaxPlayer</term>
+                    <description>Maximum number of players.</description>                
+                </item>
+            </list>
+        </summary>
+        </member>
+        <member name="P:Dungine.Common.GameDetail.Title">
+            <summary>
+            The game title.
+            <para>
+                <example>Example: <c>"Dungeon"</c></example>
+            </para>
+        </summary>
+        </member>
+        <member name="P:Dungine.Common.GameDetail.SubTitle">
+            <summary>
+            The game sub-title.
+            <para>
+                <example>Example: <c>"A Scary Adventure"</c></example>
+            </para>
+        </summary>
+        </member>
+        <member name="P:Dungine.Common.GameDetail.Genre">
+            <summary>
+            The game genre, which can be:
+            <list type="bullet">
+                <item>
+                    <term>text-adventure</term>
+                    <description>A text adventure game</description>                
+                </item>
+            </list>
+            <para>
+                <example>Example: <c>"text-adventure"</c></example>
+            </para>
+        </summary>
+        </member>
+        <member name="P:Dungine.Common.GameDetail.MinPlayer">
+            <summary>
+            The minimum number of players.
+            <para>
+                <example>Example: <c>"1"</c></example>
+            </para>
+        </summary><remarks>
+            The minimum number of players must be &gt; 0
+        </remarks>
+        </member>
+        <member name="P:Dungine.Common.GameDetail.MaxPlayer">
+            <summary>
+            The maximum number of players.
+            <para>
+                <example>Example: <c>"3"</c></example>
+            </para>
+        </summary><remarks>
+            The maximum number of players must be &lt; 5
+        </remarks>
+        </member>
+        <member name="T:Dungine.Common.GameInstance">
+            <summary>
+            The <c>GameInstance</c> object contains all game components, including:
+            <list type="bullet">
+                <item>
+                    <term>Detail</term>
+                    <description>The <c>GameDetail</c> object.</description>                
+                </item>
+                <item>
+                    <term>Rule</term>
+                    <description>The <c>GameRule</c> object.</description>                
+                </item>
+                <item>
+                    <term>State</term>
+                    <description>The <c>GameState</c> object.</description>                
+                </item>
+                <item>
+                    <term>Message</term>
+                    <description>The <c>GameState</c> object dictionary.</description>                
+                </item>
+                <item>
+                    <term>Room</term>
+                    <description>The <c>GameRoom</c> object dictionary.</description>                
+                </item>
+            </list>
+        </summary>
+        </member>
+        <member name="M:Dungine.Common.GameInstance.NewTemplate">
+            <!-- No matching elements were found for the following include tag --><include file="Development/GameInstance.xml" path="class/member[@name=&quot;NewTemplate&quot;]/*" />
+        </member>
+        <member name="M:Dungine.Common.GameInstance.CreateTemplate">
+            <!-- No matching elements were found for the following include tag --><include file="Development/GameInstance.xml" path="class/member[@name=&quot;CreateTemplate&quot;]/*" />
+        </member>
+        <member name="P:Dungine.Common.GameInstance.Detail">
+            <summary>
+            The <c>GameDetail</c> object contains various game details, including:
+            <list type="bullet">
+                <item>
+                    <term>Title</term>
+                    <description>The game title.</description>                
+                </item>
+                <item>
+                    <term>SubTitle</term>
+                    <description>The game subtitle.</description>                
+                </item>
+                <item>
+                    <term>Genre</term>
+                    <description>The game genre.</description>                
+                </item>
+                <item>
+                    <term>MinPlayer</term>
+                    <description>Minimum number of players.</description>                
+                </item>
+                <item>
+                    <term>MaxPlayer</term>
+                    <description>Maximum number of players.</description>                
+                </item>
+            </list>
+        </summary>
+        </member>
+        <member name="P:Dungine.Common.GameInstance.Rule">
+            <!-- Failed to insert some or all of included XML --><include file="Development/GameRule.xml" path="class/member[@name=&quot;GameRule&quot;]/*" />
+        </member>
+        <member name="P:Dungine.Common.GameInstance.State">
+            <!-- Failed to insert some or all of included XML --><include file="Development/GameState.xml" path="class/member[@name=&quot;GameState&quot;]/*" />
+        </member>
+        <member name="P:Dungine.Common.GameInstance.Message">
+            <summary>
+            The <c>GameMessage</c> object contains a message for the user, including:
+            <list type="bullet">
+                <item>
+                    <term>Subject</term>
+                    <description>The message subject.</description>                
+                </item>
+                <item>
+                    <term>Body</term>
+                    <description>The message body.</description>                
+                </item>
+            </list>
+        </summary>
+        </member>
+        <member name="P:Dungine.Common.GameInstance.Room">
+            <!-- Failed to insert some or all of included XML --><include file="Development/GameRoom.xml" path="class/member[@name=&quot;GameRoom&quot;]/*" />
+        </member>
+        <member name="T:Dungine.Common.GameMessage">
+            <summary>
+            The <c>GameMessage</c> object contains a message for the user, including:
+            <list type="bullet">
+                <item>
+                    <term>Subject</term>
+                    <description>The message subject.</description>                
+                </item>
+                <item>
+                    <term>Body</term>
+                    <description>The message body.</description>                
+                </item>
+            </list>
+        </summary>
+        </member>
+        <member name="P:Dungine.Common.GameMessage.Subject">
+            <summary>
+            The message subject.
+            <para>
+                <example>Example: <c>"Welcome to the game!"</c></example>
+            </para>
+        </summary>
+        </member>
+        <member name="P:Dungine.Common.GameMessage.Body">
+            <summary>
+            The message body.
+            <para>
+                <example>Example: <c>"This might be kind of scary!\nHave fun!"</c></example>
+            </para>
+        </summary>
+        </member>
+        <member name="T:Dungine.Common.GameRoom">
+            <summary>
+            Defines rooms in a game.
+            </summary>
+        </member>
+        <member name="T:Dungine.Common.GameRule">
+            <summary>
+            Defines the rules of a game.
+            </summary>
+        </member>
+        <member name="T:Dungine.Common.GameState">
+            <summary>
+            Defines the various game states.
+            </summary>
+        </member>
+        <member name="M:Dungine.InputOutput.LoadGameInstance.Json(System.String)">
+            <!-- Failed to insert some or all of included XML --><include file="code-comments.xml" path="docs/members[@name=&quot;GameInstance&quot;]/*" />
+        </member>
+        <member name="M:Dungine.InputOutput.SaveData.IndentedJson(System.String,System.Object)">
+            <summary>
+            Save data as formatted JSON.
+            </summary>
+            <param name="filePath">The path of the file to save.</param>
+            <param name="jsonData">The JSON data to save.</param>
+        </member>
+        <member name="M:Dungine.InputOutput.SaveData.MinimizedJson(System.String,System.Object)">
+            <summary>
+            Save data as minimized JSON.
+            </summary>
+            <param name="filePath">The path of the file to save.</param>
+            <param name="jsonData">The JSON data to save.</param>
+        </member>
+    </members>
+</doc>

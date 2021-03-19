@@ -1,0 +1,17 @@
+﻿{
+	"Actions": [
+		"go",
+		"look",
+		"take"
+	],
+	"Cardinals": [
+		"north",
+		"east",
+		"south",
+		"west"
+	],
+	"Objects": [
+		"door",
+		"table"
+	]
+}
