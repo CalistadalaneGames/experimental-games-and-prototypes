@@ -1,0 +1,22 @@
+﻿<!--
+    This file contains external XML comments for:
+        * Dungeon.Moonshot.StartWindow.xaml.cs
+-->
+<class>
+    <member name="StartWindow">
+        <summary>
+            Entry point of the game.
+        </summary>
+        <remarks>
+            StartWindow creates and displays the game splash screen.
+        </remarks>
+    </member>
+    <member name="ShowSplashScreen">
+        <summary>
+            Shows the game splash screen.
+        </summary>
+        <remarks>
+            The splash screen displays various development logos, and displays the the initialization process.
+        </remarks>
+    </member>
+</class>

@@ -1,0 +1,81 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyVersion>0.2.20315.1614</AssemblyVersion>
+    <FileVersion>0.2.20315.1614</FileVersion>
+    <Version>0.1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="3.3.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Roslynator.Analyzers" Version="3.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\aprettycoolprogram\du\src\Du.CLI\Du.CLI.csproj" />
+    <ProjectReference Include="..\..\..\aprettycoolprogram\du\src\Du.Core\Du.Core.csproj" />
+    <ProjectReference Include="..\..\..\aprettycoolprogram\du\src\Du.cs\Du.csproj" />
+    <ProjectReference Include="..\..\..\aprettycoolprogram\du\src\Du.WPF\Du.WPF.csproj" />
+    <ProjectReference Include="..\..\dungine\src\Dungine.CLI\Dungine.CLI.csproj" />
+    <ProjectReference Include="..\..\dungine\src\Dungine.Core\Dungine.Core.csproj" />
+    <ProjectReference Include="..\..\dungine\src\Dungine.WPF\Dungine.WPF.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="application-data\asset\image\embedded\dungeon-moonshot-room-view-blank-986x436.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="application-data\asset\image\embedded\dungeon-moonshot-room-view-concept01-986x436.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="application-data\asset\image\embedded\dungeon-moonshot-room-view-frame-986x436.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="application-data\asset\image\embedded\monster-concept01.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="application-data\asset\image\embedded\monster-concept02.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="application-data\asset\image\embedded\monster-concept03.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="application-data\asset\image\included\logo\apcp-logo-250x250.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="application-data\asset\image\included\logo\cg-logo-250x250.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="application-data\asset\image\included\logo\crispy-logo-250x250.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

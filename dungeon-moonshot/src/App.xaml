@@ -1,0 +1,22 @@
+﻿<!--
+    PROJECT: Dungeon.Moonshot (https://github.com/calistadalanegames/Dungeon.Moonshot)
+    FILE: App.xaml
+    UPDATED: 11-9-2020-2:44 PM
+    LICENSE: Apache v2 (https://apache.org/licenses/LICENSE-2.0)
+    Copyright 2020 A Pretty Cool Program & Calistadalane Games
+    All rights reserved
+-->
+
+<!--
+    Main entry point for Dungeon: Moonshot.
+
+    Please see App.xaml.cs for more information.
+-->
+
+<Application x:Class="Dungeon.Moonshot.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Dungeon.Moonshot"
+             StartupUri="StartWindow.xaml">
+    <Application.Resources />
+</Application>
